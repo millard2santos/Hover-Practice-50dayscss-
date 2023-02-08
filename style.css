@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.769);
+    height: 100vh;
+}
+.container{
+    background-color: rgba(6, 28, 20, 0.246);
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+   
+}
+.cube{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+
+
+
+
+.transition{
+    transition: background-color 1s ease-in;
+}
+
